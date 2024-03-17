@@ -9,6 +9,7 @@ function adicionarTarefa(e) {
   tarefa.classList.add('tarefa');
 
   const tarefaItem = document.createElement('li');
+  tarefaItem.innerText = inputTarefa.value;
   tarefaItem.classList.add('tarefa-item');
   tarefa.appendChild(tarefaItem);
 
@@ -23,4 +24,6 @@ function adicionarTarefa(e) {
   tarefa.appendChild(botaoExcluir);
 
   tarefasLista.appendChild(tarefa);
+
+  inputTarefa.value = '';
 }
