@@ -14,12 +14,12 @@ function adicionarTarefa(e) {
   tarefa.appendChild(tarefaItem);
 
   const botaoConcluido = document.createElement('button');
-  botaoConcluido.innerHTML = '<i class="fas fa-check"></i>';
+  botaoConcluido.innerHTML = '<i class="fas fa-square-check fa-fw"></i>';
   botaoConcluido.classList.add('botao-concluido');
   tarefa.appendChild(botaoConcluido);
 
   const botaoExcluir = document.createElement('button');
-  botaoExcluir.innerHTML = '<i class="fas fa-trash"></i>';
+  botaoExcluir.innerHTML = '<i class="fas fa-square-xmark fa-fw"></i>';
   botaoExcluir.classList.add('botao-excluir');
   tarefa.appendChild(botaoExcluir);
 

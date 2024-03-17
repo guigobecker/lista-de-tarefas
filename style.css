@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body {
@@ -42,13 +41,13 @@ input {
   background: white;
 }
 
-.input-botao, .botao-concluido, .botao-excluir {
-  border: none;
-  font-size: 1.9rem;
+button {
+  background-color: white;
 }
 
-.input-botao {
-  font-size: 2.3rem;
+.input-botao, .botao-concluido, .botao-excluir {
+  border: none;
+  font-size: 2rem;
 }
 
 .botao-concluido {
@@ -57,7 +56,6 @@ input {
 
 i {
   color: black;
-  background: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -90,4 +88,5 @@ i:hover {
 
 .tarefa-item {
   overflow: hidden;
+  padding: 0rem, 0.5rem;
 }
